@@ -12,6 +12,7 @@ public final class Email_VO {
     public String getDireccion() {
         return direccion;
     }
+    @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
         if (!(obj instanceof Email_VO)) return false;
