@@ -5,6 +5,7 @@ public class Estudiante {
     private String nombre;
     private String apellido;
     private int Nota;
+    private String Curso;
     private String Email;
 
     public Estudiante(int id, String nombre, String apellido, int nota, String Email) {
@@ -36,6 +37,12 @@ public class Estudiante {
         return Nota;
     }
     public void setNota(int nota) {
+
+    }
+    public String getCurso() {
+        return Curso;
+    }
+    public void setCurso(String curso) {
 
     }
     public String getEmail() {
